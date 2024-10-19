@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "diddypack",
+	"version": "${version}",
+	"name": "diddypack",
+	"description": "This is the Diddy modpack by the man himself.",
+	"authors": [
+		"Punans!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/diddypack/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.mpunans.diddypack.Diddypack"
+		],
+		"fabric-datagen": [
+			"net.mpunans.diddypack.DiddypackDataGenerator"
+		],
+		"client": [
+			"net.mpunans.diddypack.DiddypackClient"
+		]
+	},
+	"mixins": [
+		"diddypack.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.7",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
