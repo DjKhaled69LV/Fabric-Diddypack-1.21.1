@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "diddypack:block/diddy_spawn_block"
+    }
+  }
+}
