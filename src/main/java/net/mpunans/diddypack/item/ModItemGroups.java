@@ -19,6 +19,7 @@ public class ModItemGroups {
                     .displayName((Text.translatable("itemgroup.diddypack.diddy_items")))
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.BABY_OIL);
+                        entries.add(ModItems.FONDLER);
                     })
                     .build());
 

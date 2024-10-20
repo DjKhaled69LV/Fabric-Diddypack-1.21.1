@@ -7,10 +7,13 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.mpunans.diddypack.Diddypack;
+import net.mpunans.diddypack.item.custom.DiddyFondler;
 
 public class ModItems {
 
     public static final Item BABY_OIL = registerItem("baby_oil", new Item(new Item.Settings()));
+    public static final Item FONDLER = registerItem("fondler", new DiddyFondler(new Item.Settings()));
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(Diddypack.MOD_ID, name), item);
