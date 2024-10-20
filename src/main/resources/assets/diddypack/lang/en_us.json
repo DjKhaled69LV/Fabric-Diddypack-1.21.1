@@ -1,5 +1,8 @@
 {
   "item.diddypack.baby_oil": "Baby Oil",
 
-  "block.diddypack.diddy_spawn_block": "Diddy Spawn Block"
+  "block.diddypack.diddy_spawn_block": "Diddy Spawn Block",
+
+  "itemgroup.diddypack.diddy_items": "Diddy Items",
+  "itemgroup.diddypack.diddy_blocks": "Diddy Blocks"
 }

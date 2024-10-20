@@ -3,6 +3,7 @@ package net.mpunans.diddypack;
 import net.fabricmc.api.ModInitializer;
 
 import net.mpunans.diddypack.block.ModBlocks;
+import net.mpunans.diddypack.item.ModItemGroups;
 import net.mpunans.diddypack.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,6 +14,7 @@ public class Diddypack implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 	}

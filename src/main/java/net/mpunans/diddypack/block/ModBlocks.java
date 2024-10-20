@@ -15,7 +15,7 @@ import net.mpunans.diddypack.Diddypack;
 public class ModBlocks {
 
     public static final Block DIDDY_SPAWN_BLOCK = registerBlock("diddy_spawn_block",
-            new Block(AbstractBlock.Settings.create().strength(4f)
+            new Block(AbstractBlock.Settings.create().strength(2f)
                     .requiresTool().sounds(BlockSoundGroup.BASALT)));
 
     private static Block registerBlock(String name, Block block) {
