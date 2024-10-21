@@ -3,19 +3,19 @@
   "category": "misc",
   "key": {
     "#": {
-      "item": "diddypack:oil"
+      "item": "minecraft:paper"
     },
-    "@": {
-      "item": "diddypack:plastic"
+    "$": {
+      "item": "diddypack:nicotine"
     }
   },
   "pattern": [
-    "@#@",
-    "@#@",
-    " @ "
+    "###",
+    "#$#",
+    "###"
   ],
   "result": {
     "count": 1,
-    "id": "diddypack:baby_oil"
+    "id": "diddypack:snus"
   }
 }

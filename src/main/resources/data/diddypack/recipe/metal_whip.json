@@ -3,19 +3,22 @@
   "category": "misc",
   "key": {
     "#": {
-      "item": "diddypack:oil"
+      "item": "minecraft:chain"
     },
     "@": {
-      "item": "diddypack:plastic"
+      "item": "minecraft:iron_ingot"
+    },
+    "$": {
+      "item": "diddypack:whip"
     }
   },
   "pattern": [
     "@#@",
-    "@#@",
-    " @ "
+    "#$#",
+    "@#@"
   ],
   "result": {
     "count": 1,
-    "id": "diddypack:baby_oil"
+    "id": "diddypack:metal_whip"
   }
 }

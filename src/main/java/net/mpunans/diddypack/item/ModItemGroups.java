@@ -19,7 +19,28 @@ public class ModItemGroups {
                     .displayName((Text.translatable("itemgroup.diddypack.diddy_items")))
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.BABY_OIL);
-                        entries.add(ModItems.FONDLER);
+                        entries.add(ModItems.DILDO);
+                        entries.add(ModItems.CONDOM);
+                        entries.add(ModItems.FLESHLIGHT);
+
+                        entries.add(ModItems.CUM);
+                        entries.add(ModItems.SNUS);
+                        entries.add(ModItems.VAPE);
+
+                        entries.add(ModItems.WHIP);
+                        entries.add(ModItems.METAL_WHIP);
+
+                        entries.add(ModItems.SAP);
+                        entries.add(ModItems.RUBBER);
+                        entries.add(ModItems.SALT);
+                        entries.add(ModItems.CRUDE_OIL);
+                        entries.add(ModItems.PLASTIC);
+                        entries.add(ModItems.OIL);
+                        entries.add(ModItems.NICOTINE);
+                        entries.add(ModItems.TOBACCO);
+                        entries.add(ModItems.TOBACCO_SEEDS);
+
+
                     })
                     .build());
 
