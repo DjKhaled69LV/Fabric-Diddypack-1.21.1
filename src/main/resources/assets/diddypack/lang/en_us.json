@@ -23,7 +23,8 @@
 
 
 
-  "block.diddypack.diddy_spawn_block": "Diddy Spawn Block",
+  "block.diddypack.crude_oil_ore_block": "Crude Oil Ore",
+  "block.diddypack.crude_oil_deepslate_ore_block": "Crude Oil Deepslate Ore",
 
   "itemgroup.diddypack.diddy_items": "Diddy Items",
   "itemgroup.diddypack.diddy_blocks": "Diddy Blocks"

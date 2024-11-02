@@ -39,17 +39,16 @@ public class ModItemGroups {
                         entries.add(ModItems.NICOTINE);
                         entries.add(ModItems.TOBACCO);
                         entries.add(ModItems.TOBACCO_SEEDS);
-
-
                     })
                     .build());
 
     public static final ItemGroup DIDDY_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(Diddypack.MOD_ID, "diddy_blocks"),
-            FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.DIDDY_SPAWN_BLOCK))
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.CRUDE_OIL_ORE_BLOCK))
                     .displayName((Text.translatable("itemgroup.diddypack.diddy_blocks")))
                     .entries((displayContext, entries) -> {
-                        entries.add(ModBlocks.DIDDY_SPAWN_BLOCK);
+                        entries.add(ModBlocks.CRUDE_OIL_ORE_BLOCK);
+                        entries.add(ModBlocks.CRUDE_OIL_DEEPSLATE_ORE_BLOCK);
                     })
                     .build());
 

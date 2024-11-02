@@ -134,9 +134,9 @@ public class Vape extends Item {
     }
 
     private static void applyEffects(PlayerEntity player, int multiplier) {
-        if (multiplier >= 3) {
-            int effectDuration = EFFECT_DURATION_BASE * (multiplier - 2);
-            player.addStatusEffect(new StatusEffectInstance(StatusEffects.SPEED, effectDuration, 2));
+        if (multiplier >= 4) {
+            int effectDuration = EFFECT_DURATION_BASE * (multiplier - 3);
+            player.addStatusEffect(new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE, effectDuration, 0));
             player.addStatusEffect(new StatusEffectInstance(StatusEffects.DARKNESS, effectDuration, 0));
         }
 
