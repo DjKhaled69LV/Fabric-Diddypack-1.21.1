@@ -13,7 +13,6 @@ import net.mpunans.diddypack.item.custom.*;
 public class ModItems {
 
     public static final Item BABY_OIL = registerItem("baby_oil", new Item(new Item.Settings()));
-    public static final Item DILDO = registerItem("dildo", new Dildo(new Item.Settings()));
     public static final Item CONDOM = registerItem("condom", new Item(new Item.Settings()));
     public static final Item FLESHLIGHT = registerItem("fleshlight", new FleshLight(new Item.Settings().maxDamage(16)));
 
@@ -47,7 +46,6 @@ public class ModItems {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(fabricItemGroupEntries -> {
             fabricItemGroupEntries.add(BABY_OIL);
-            fabricItemGroupEntries.add(DILDO);
             fabricItemGroupEntries.add(CONDOM);
             fabricItemGroupEntries.add(FLESHLIGHT);
             fabricItemGroupEntries.add(CUM);
